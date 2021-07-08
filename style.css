@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+
+#navbar {
+    background-color: #be3144;
+    width: 100%;
+    position: fixed;
+}
+#navbar ul li {
+    margin: 0;
+    text-align: right;
+    padding: 1rem;
+}
+
+
+#navbar a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+#navbar li:hover {
+    background-color: #45567d;
+}
+
+#welcome-section {
+    background-color: #303841;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#welcome-section h1 {
+    color: #f0f0f0;
+    font-size: 5rem;
+}
+
+#welcome-section p {
+    color: #be3144;
+    font-size: 2rem;
+}
